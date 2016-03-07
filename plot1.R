@@ -1,6 +1,6 @@
 #plot1
 
-#Read the data for just the dates required
+#Read the data for just the dates (lines) required
 feb1and2 <- read.table("household_power_consumption.txt", header= TRUE, sep = ";", na.strings = "?") [66637:69516,]
 
 #Open the plotting device
